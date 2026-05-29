@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\d4ni3\\source\\repos\\Stark-induestries\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF52CB7-8AE1-4D66-9395-79E49EA86B2B}|Stark-induestries\\Stark-induestries.csproj|c:\\users\\d4ni3\\source\\repos\\stark-induestries\\stark-induestries\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF52CB7-8AE1-4D66-9395-79E49EA86B2B}|Stark-induestries\\Stark-induestries.csproj|solutionrelative:stark-induestries\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF52CB7-8AE1-4D66-9395-79E49EA86B2B}|Stark-induestries\\Stark-induestries.csproj|c:\\users\\d4ni3\\source\\repos\\stark-induestries\\stark-induestries\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF52CB7-8AE1-4D66-9395-79E49EA86B2B}|Stark-induestries\\Stark-induestries.csproj|solutionrelative:stark-induestries\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF52CB7-8AE1-4D66-9395-79E49EA86B2B}|Stark-induestries\\Stark-induestries.csproj|c:\\users\\d4ni3\\source\\repos\\stark-induestries\\stark-induestries\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEF52CB7-8AE1-4D66-9395-79E49EA86B2B}|Stark-induestries\\Stark-induestries.csproj|solutionrelative:stark-induestries\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF52CB7-8AE1-4D66-9395-79E49EA86B2B}|Stark-induestries\\Stark-induestries.csproj|c:\\users\\d4ni3\\source\\repos\\stark-induestries\\stark-induestries\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF52CB7-8AE1-4D66-9395-79E49EA86B2B}|Stark-induestries\\Stark-induestries.csproj|solutionrelative:stark-induestries\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\d4ni3\\source\\repos\\Stark-induestries\\Stark-induestries\\appsettings.json",
+              "RelativeDocumentMoniker": "Stark-induestries\\appsettings.json",
+              "ToolTip": "C:\\Users\\d4ni3\\source\\repos\\Stark-induestries\\Stark-induestries\\appsettings.json",
+              "RelativeToolTip": "Stark-induestries\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-19T11:08:56.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\d4ni3\\source\\repos\\Stark-induestries\\Stark-induestries\\Program.cs",
+              "RelativeDocumentMoniker": "Stark-induestries\\Program.cs",
+              "ToolTip": "C:\\Users\\d4ni3\\source\\repos\\Stark-induestries\\Stark-induestries\\Program.cs",
+              "RelativeToolTip": "Stark-induestries\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T00:09:35.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "imageController.cs",
+              "DocumentMoniker": "C:\\Users\\d4ni3\\source\\repos\\Stark-induestries\\Stark-induestries\\Controllers\\imageController.cs",
+              "RelativeDocumentMoniker": "Stark-induestries\\Controllers\\imageController.cs",
+              "ToolTip": "C:\\Users\\d4ni3\\source\\repos\\Stark-induestries\\Stark-induestries\\Controllers\\imageController.cs*",
+              "RelativeToolTip": "Stark-induestries\\Controllers\\imageController.cs*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T00:00:44.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\d4ni3\\source\\repos\\Stark-induestries\\Stark-induestries\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Stark-induestries\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\d4ni3\\source\\repos\\Stark-induestries\\Stark-induestries\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Stark-induestries\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T00:00:10.071Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

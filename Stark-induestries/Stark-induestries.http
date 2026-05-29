@@ -1,0 +1,6 @@
+@Stark_induestries_HostAddress = http://localhost:5087
+
+GET {{Stark_induestries_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
