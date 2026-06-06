@@ -1,4 +1,5 @@
 using CloudinaryDotNet;
+using Stark_induestries.Entity;
 using Stark_induestries.Service;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -39,8 +40,15 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
+
+var cloud = app.Services.GetRequiredService<CloudService>();
 var queue = app.Services.GetRequiredService<ImageQueueService>();
-await queue.ReloadQueue();
+
+//Retrieving valid id's from cloud
+var baseIds = await cloud.GetBasePublicIds();
+foreach (var id in baseIds)
+    await queue.Enqueue(new ImageEntry { Identifier = id }, cloud);
+
 
 //app.UseHttpsRedirection();
 

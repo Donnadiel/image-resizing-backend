@@ -12,12 +12,12 @@ public class CloudService
     
     //TODO check if this works right for every image, otherwise calculate it
     //Height and width variables
-    private readonly int width_s = 480;
-    private readonly int height_s = 540;
-    private readonly int width_m = 960;
-    private readonly int height_m = 540;
+    private readonly int width_s = 720;
+    private readonly int height_s = 520;
+    private readonly int width_m = 1020;
+    private readonly int height_m = 820;
     private readonly int width_b = 1920;
-    private readonly int height_b = 1080;
+    private readonly int height_b = 1820;
  
     public CloudService(Cloudinary cloudinary, IConfiguration config)
     {
@@ -81,6 +81,20 @@ public class CloudService
         
         return url;
     }
+    
+    public async Task<IEnumerable<string>> GetBasePublicIds()
+    {
+        var result = await _cloudinary.Search().Expression("resource_type:image").SortBy("created_at", "asc").MaxResults(10).ExecuteAsync();
+ 
+        return result.Resources
+            .Select(r => r.PublicId)
+            //Filtering out results with the base image
+            .Where(id => !id.EndsWith("_s") && !id.EndsWith("_m") && !id.EndsWith("_b"));
+    }
+
+
+    
+    
     
     public async Task Delete(string publicId)
     {
