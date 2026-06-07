@@ -84,12 +84,15 @@ public class CloudService
     
     public async Task<IEnumerable<string>> GetBasePublicIds()
     {
-        var result = await _cloudinary.Search().Expression("resource_type:image").SortBy("created_at", "asc").MaxResults(10).ExecuteAsync();
+        var result = await _cloudinary.Search().Expression("resource_type:image").SortBy("created_at", "asc").
+            MaxResults(40).ExecuteAsync();
  
         return result.Resources
             .Select(r => r.PublicId)
             //Filtering out results with the base image
             .Where(id => !id.EndsWith("_s") && !id.EndsWith("_m") && !id.EndsWith("_b"));
+        
+        
     }
 
 

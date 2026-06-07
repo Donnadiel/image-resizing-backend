@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Stark-induestries")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc87a46659c7f835e9fcc24610755400f3121563")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a953339f5de65be18e6a11322c82381e40c4afa5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Stark-induestries")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Stark-induestries")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
