@@ -66,16 +66,7 @@ public class CloudService
     
     public async Task<string> GetImageUrl (string publicId, string size)
     {
-        var sw = System.Diagnostics.Stopwatch.StartNew();
- 
-
-        var result = await _cloudinary.GetResourceAsync(new GetResourceParams(publicId));
         
-        if (result.Error != null)
-        {
-            throw new Exception($"Cloudinary fetch failed: {result.Error.Message}");
-        }
-
         var suffixedId = size == "original" ? publicId : $"{publicId}_{size}";
         var url = $"https://res.cloudinary.com/{_cloudName}/image/upload/{suffixedId}";
         
@@ -92,12 +83,8 @@ public class CloudService
             //Filtering out results with the base image
             .Where(id => !id.EndsWith("_s") && !id.EndsWith("_m") && !id.EndsWith("_b"));
         
-        
     }
 
-
-    
-    
     
     public async Task Delete(string publicId)
     {
